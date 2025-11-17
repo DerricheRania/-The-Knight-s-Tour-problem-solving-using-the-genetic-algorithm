@@ -1,4 +1,4 @@
-# 🧠 Project Description — Knight’s Tour Using a Genetic Algorithm + Pygame Animation
+# 🧠 Project Description : Knight’s Tour Using a Genetic Algorithm + Pygame Animation
 
 This project solves the Knight’s Tour problem using a **genetic algorithm** and **visualizes the final solution with Pygame.**
 
