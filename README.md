@@ -6,26 +6,26 @@ This project solves the Knight’s Tour problem using a **genetic algorithm** an
 
 Each possible solution is represented as a chromosome, containing 63 genes, where each gene encodes one of the knight’s 8 possible moves. A population of random chromosomes is created, and at each generation:
 
-The quality (fitness) of every knight path is evaluated (number of unique squares visited).
+- The quality (fitness) of every knight path is evaluated (number of unique squares visited).
 
-The best individuals are selected using tournament selection.
+- The best individuals are selected using tournament selection.
 
-New offspring are produced through crossover and random mutations.
+- New offspring are produced through crossover and random mutations.
 
-The population evolves until a full 64-square tour is found.
+- The population evolves until a full 64-square tour is found.
 
 Once the genetic algorithm discovers an optimal or near-optimal tour, the solution is displayed using a Pygame animation that shows:
 
-The chessboard
+- The chessboard
 
-All visited squares
+- All visited squares
 
-The order of movements
+- The order of movements
 
-The drawn path
+- The drawn path
 
-A moving knight icon
+- A moving knight icon
 
-Real-time controls (pause, speed change, reset, quit)
+- Real-time controls (pause, speed change, reset, quit)
 
 This project combines artificial intelligence, evolutionary computation, and interactive visualization to demonstrate how genetic algorithms can approximate complex combinatorial problems.
