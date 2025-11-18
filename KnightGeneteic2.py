@@ -19,7 +19,7 @@ class Chromosome:
         child2_genes = partner.genes[:crossover_point] + self.genes[crossover_point:]
         return Chromosome(child1_genes), Chromosome(child2_genes)
     
-    def mutation(self, mutation_rate=0.01): # teacher told us to use rate 0.01
+    def mutation(self, mutation_rate=0.01):
         """Mutation aléatoire des gènes"""
         for i in range(len(self.genes)):
             if random.random() < mutation_rate:
@@ -383,4 +383,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
